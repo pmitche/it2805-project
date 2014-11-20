@@ -38,3 +38,12 @@
     border-radius: 4px;
     border-color: red;
 }
+
+#formLogin{
+    display: inline-block;
+}
+
+.btn-block > .btn-login {
+    width: 50%;
+
+}
