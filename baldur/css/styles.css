@@ -1,7 +1,15 @@
-.breadcrumb {
+.jumbotron > .container > .breadcrumb {
     padding: 8px 0px;
     list-style: none;
     background-color: #e6e6e6;
+    border-radius: 0;
+    margin: 0px;
+    text-align: left;
+}
+.breadcrumb {
+    padding: 56px 0px 8px 0px;
+    list-style: none;
+    background-color: #ffffff;
     border-radius: 0;
     margin: 0px;
     text-align: left;
@@ -19,6 +27,10 @@
 }
 .jumbotron {
     padding: 48px 0;
+}
+
+.edit-user {
+    margin-top: 20px;
 }
 
 .help-block2 {
