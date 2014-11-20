@@ -17,3 +17,6 @@
 .breadcrumb > .active {
     color: #999999;
 }
+.jumbotron {
+    padding: 48px 0;
+}
