@@ -66,3 +66,10 @@
         font-size: 23px;
     }
 }
+
+#eventsList > .row {
+    padding-bottom: 20px;
+}
+.main-content > h2 {
+    padding-bottom: 10px;
+}

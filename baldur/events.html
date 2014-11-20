@@ -63,7 +63,8 @@
 
 <!-- CONTENT =================================-->
 <div class="container main-content">
-    <div class="row well" id="eventsList">
+    <h2><bold>Upcoming events</bold></h2>
+    <div id="eventsList">
     </div>
 </div>
 <hr>
@@ -75,7 +76,7 @@
             <div class="col-md-4">
             </div>
             <div class="col-md-4 text-center">
-                Made by me
+                Made by Paul Philip Mitchell & Kyrre Laugerud Moe
             </div>
             <div class="col-md-4">
             </div>
@@ -88,31 +89,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/login.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-
-        function parse(document){
-            $(document).find("event").each(function(){
-                $("#eventsList").append(
-                        '<div class="col-md-3"><b>' +$(this).find('eventName').text()+
-                        '</b> @ '+$(this).find('location').text()+
-                        '<br /> <i>'+$(this).find('ingress').text()+ '</i></p><br>' +
-                        '<a href="' + $(this).find('linkUrl').text() + '">' +
-                        '<img src="' + $(this).find('imageUrl').text() + '" width="250" height="200"/></a>' +
-                        '</div>'
-                );
-            });
-        }
-
-
-
-        $.ajax({
-            url: 'xml/events.xml', // name of file you want to parse
-            dataType: "xml",
-            success: parse,
-            error: function(){alert("Error: Something went wrong");}
-        });
-    });
-</script>
+<script src="js/events.js"></script>
 </body>
 </html>
