@@ -4,7 +4,7 @@ function setMenuLogin() {
         "<div class=\"dropdown-menu\" style=\"padding:17px;\">" +
         "<form class=\"bs-component\" id=\"formLogin\">" +
         "<div class=\"form-group\">" +
-        "<input name=\"username\" id=\"username\" type=\"text\" placeholder=\"Username\"></div>" +
+        "<input name=\"email\" id=\"email\" type=\"text\" placeholder=\"E-mail\"></div>" +
         "<div class=\"form-group\">" +
         "<input name=\"password\" id=\"password\" type=\"password\" placeholder=\"Password\"><br></div>" +
         "<div class=\"btn-group btn-block\"><button type=\"button\" id=\"loginButton\" class=\"btn-default btn-login\">Login</button>" +
@@ -12,7 +12,17 @@ function setMenuLogin() {
         "</form></div>");
     document.getElementById("loginButton").addEventListener("click", loginFunc);
     document.getElementById("register").addEventListener("click", register);
+    $("#password").bind("keypress", {}, submit);
 }
+
+function submit(e) {
+    var code = (e.keyCode ? e.keyCode : e.which);
+    if (code == 13) {
+        e.preventDefault();
+        loginFunc();
+    }
+};
+
 function setMenuLoggedIn(){
     $( "#menuLogin").empty();
     $( "#menuLogin" ).append("<a class=\"dropdown-toggle\" href=\"#\" data-toggle=\"dropdown\" id=\"navLogin\"><span class=\"glyphicon glyphicon-user\"></span>&nbsp;&nbsp;</a>" +
@@ -36,11 +46,11 @@ window.onload=function(){
 };
 
 function loginFunc(){
-    var username = document.getElementById("username").value;
+    var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
-    if(userExists()){
-        $.cookie('baldurLogin', username, { expires: 1, path: '/' });
+    if(userExists(email, password)){
+        $.cookie('baldurLogin', email, { expires: 1, path: '/' });
         setMenu();
     }
 }
@@ -49,6 +59,20 @@ function register(){
 }
 
 //TODO: Change user exists
-function userExists() {
-    return true;
+function userExists(email, password) {
+    var data = localStorage['baldur-users'];
+    if (typeof data === 'undefined'){
+        console.log("no users found");
+        return false;
+    }
+    var users = JSON.parse(data);
+
+    for (var i = 0; i < users.length; i++) {
+        var user = users[i];
+        if(user.email === email && user.password === password){
+            return true;
+        }
+    }
+
+    return false;
 }
