@@ -1,1 +1,19 @@
-
+.breadcrumb {
+    padding: 8px 0px;
+    list-style: none;
+    background-color: #e6e6e6;
+    border-radius: 0;
+    margin: 0px;
+    text-align: left;
+}
+.breadcrumb > li {
+    display: inline-block;
+}
+.breadcrumb > li + li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: #cccccc;
+}
+.breadcrumb > .active {
+    color: #999999;
+}
