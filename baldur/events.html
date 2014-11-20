@@ -63,9 +63,7 @@
 
 <!-- CONTENT =================================-->
 <div class="container main-content">
-    <div class="row">
-        <div class="col-lg-12 well" id="eventsList">
-        </div>
+    <div class="row well" id="eventsList">
     </div>
 </div>
 <hr>
@@ -93,14 +91,15 @@
 <script type="text/javascript">
     $(document).ready(function(){
 
-
         function parse(document){
             $(document).find("event").each(function(){
                 $("#eventsList").append(
-                        '<b>' +$(this).find('eventName').text()+
+                        '<div class="col-md-3"><b>' +$(this).find('eventName').text()+
                         '</b> @ '+$(this).find('location').text()+
-                        '<br /> Description: '+$(this).find('description').text()+
-                        '</p>'
+                        '<br /> <i>'+$(this).find('ingress').text()+ '</i></p><br>' +
+                        '<a href="' + $(this).find('linkUrl').text() + '">' +
+                        '<img src="' + $(this).find('imageUrl').text() + '" width="250" height="200"/></a>' +
+                        '</div>'
                 );
             });
         }
