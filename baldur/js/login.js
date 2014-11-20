@@ -35,7 +35,7 @@ function logout() {
     setMenu();
 }
 function setMenu() {
-    if (typeof $.cookie('baldurLogin') === 'undefined'){
+    if (!isLoggedIn()){
         setMenuLogin();
     }else{
         setMenuLoggedIn();
@@ -62,7 +62,7 @@ function register(){
 function userExists(email, password) {
     var data = localStorage['baldur-users'];
     if (typeof data === 'undefined'){
-        console.log("no users found");
+        alert("wrong username or password");
         return false;
     }
     var users = JSON.parse(data);
@@ -73,6 +73,6 @@ function userExists(email, password) {
             return true;
         }
     }
-
+    alert("wrong username or password");
     return false;
 }
