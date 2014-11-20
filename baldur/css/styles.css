@@ -20,3 +20,11 @@
 .jumbotron {
     padding: 48px 0;
 }
+
+#formLogin{
+    display: inline-block;
+}
+
+.btn-block > .btn-login {
+    width: 50%;
+}
