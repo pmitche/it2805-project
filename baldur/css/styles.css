@@ -57,5 +57,12 @@
 
 .btn-block > .btn-login {
     width: 50%;
-
+}
+.well > p{
+    font-weight: 200;
+}
+@media (min-width: 768px) {
+    .well > p{
+        font-size: 23px;
+    }
 }
