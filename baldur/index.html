@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Kommende arrangementer - Baldur</title>
+    <title>Baldur</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -53,19 +53,28 @@
 <!-- HEADER
 =================================-->
 
-<div class="container">
-    <ul class="breadcrumb">
-        <li><a href="index.html">Hjem</a></li>
-        <li class="active">Kommende arrangementer</li>
-    </ul>
+<div class="jumbotron text-center">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ul>
+        <div class="row">
+            <div class="col col-lg-12 col-sm-12">
+                <h1>Baldur</h1>
+                <p>Linjeforenigen for deg som er glad i å håndtere baller</p>
+
+            </div>
+        </div>
+    </div>
 </div>
 <!-- /header container-->
 
 <!-- CONTENT =================================-->
 <div class="container main-content">
     <div class="row">
-        <div class="col-lg-12 well" id="eventsList">
-        </div>
+        <div class="col-lg-12"><div class="well"><p>12 wide</p></div></div>
     </div>
 </div>
 <hr>
@@ -77,7 +86,7 @@
             <div class="col-md-4">
             </div>
             <div class="col-md-4 text-center">
-                Made by me
+                Made by Paul Philip Mitchell & Kyrre Laugerud Moe
             </div>
             <div class="col-md-4">
             </div>
@@ -90,30 +99,5 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/login.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-
-
-        function parse(document){
-            $(document).find("event").each(function(){
-                $("#eventsList").append(
-                        '<p>Event name: '+$(this).find('eventName').text()+
-                        '<br /> Location: '+$(this).find('location').text()+
-                        '<br /> Description: '+$(this).find('description').text()+
-                        '</p>'
-                );
-            });
-        }
-
-
-
-        $.ajax({
-            url: 'xml/events.xml', // name of file you want to parse
-            dataType: "xml",
-            success: parse,
-            error: function(){alert("Error: Something went wrong");}
-        });
-    });
-</script>
 </body>
 </html>
