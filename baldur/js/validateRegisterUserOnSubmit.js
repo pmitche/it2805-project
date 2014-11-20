@@ -1,9 +1,32 @@
 /**
  * Created by Paul on 20.11.2014.
  */
+function submitUserForm(){
+    if(validateForm()){
+        var data = localStorage['baldur-users'];
+        var users;
+        if (typeof data === 'undefined'){
+            users = [];
+        }else{
+            users = JSON.parse(data);
+        }
 
+        var mail = document.getElementById("inputEmail").value,
+            password = document.getElementById("inputPassword").value,
+            password2 = document.getElementById("inputRepeatPassword").value,
+            firstname = document.getElementById("inputFirstName").value,
+            lastname = document.getElementById("inputLastName").value,
+            allergies = document.getElementById("inputAllergies").value,
+            favoriteSport = document.getElementById("selectSport"),
+            gender = document.querySelector('input[name=genderRadios]:checked').value,
+            selectedSport = favoriteSport.options[favoriteSport.selectedIndex].text;
+
+        var user = {email:mail , password:password , firstName:firstname, lastName:lastname, allergies:allergies, gender:gender, selectedSport:selectedSport };
+        users.push(user);
+        localStorage['baldur-users'] = JSON.stringify(users);
+    }
+}
 function validateForm() {
-    console.log("hhahahah");
     var mail = document.getElementById("inputEmail").value,
         password = document.getElementById("inputPassword").value,
         password2 = document.getElementById("inputRepeatPassword").value,
