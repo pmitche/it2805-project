@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Kommende arrangementer - Baldur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="../" class="navbar-brand">Baldur</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="events.html">Upcoming events</a>
+                </li>
+                <li>
+                    <a href="career.html">Career opportunities</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="about">About<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="about">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="sitemap.html">Site map</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown" id="menuLogin">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- HEADER
+=================================-->
+
+<div class="container">
+    <ul class="breadcrumb">
+        <li><a href="index.html">Hjem</a></li>
+        <li class="active">Kommende arrangementer</li>
+    </ul>
+</div>
+<!-- /header container-->
+
+<!-- CONTENT =================================-->
+<div class="container main-content">
+    <div class="row">
+        <div class="col-lg-12 well" id="eventsList">
+        </div>
+    </div>
+</div>
+<hr>
+<!-- /CONTENT ============-->
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4 text-center">
+                Made by me
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+        <div class="container">
+</footer>
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/login.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+
+
+        function parse(document){
+            $(document).find("event").each(function(){
+                $("#eventsList").append(
+                        '<p>Event name: '+$(this).find('eventName').text()+
+                        '<br /> Location: '+$(this).find('location').text()+
+                        '<br /> Description: '+$(this).find('description').text()+
+                        '</p>'
+                );
+            });
+        }
+
+
+
+        $.ajax({
+            url: 'xml/events.xml', // name of file you want to parse
+            dataType: "xml",
+            success: parse,
+            error: function(){alert("Error: Something went wrong");}
+        });
+    });
+</script>
+</body>
+</html>
