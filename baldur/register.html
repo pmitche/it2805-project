@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Registrer bruker - Baldur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="../" class="navbar-brand">Baldur</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="events.html">Upcoming events</a>
+                </li>
+                <li>
+                    <a href="career.html">Career opportunities</a>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="about">About<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="about">
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="sitemap.html">Site map</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="userMenu"><i class="glyphicon glyphicon-user"></i>&nbsp;&nbsp;&nbsp;Baldur Langballe<span class="caret"></span></a>
+                    <ul class="dropdown-menu" aria-labelledby="userMenu">
+                        <li><a href="logout.html">Log out</a></li>
+                        <li><a href="profile.html">Profile settings</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!-- HEADER 
+=================================-->
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Library</a></li>
+            <li class="active">Data</li>
+        </ul>
+        <div class="row">
+            <div class="col col-lg-12 col-sm-12">
+                <h1>Baldur</h1>
+                <p>Linjeforenigen for deg som er glad i å håndtere baller</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /header container-->
+
+<!-- CONTENT =================================-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <form class="form-horizontal" name="registerForm" onsubmit="return validateForm()" method="get" novalidate="">
+                <fieldset>
+                    <legend>Registrer bruker</legend>
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-lg-2 control-label">Email (*)</label>
+                        <div class="col-lg-6">
+                            <input type="email" class="form-control req" name="inputEmail" id="inputEmail" placeholder="ola@nordmann.no">
+                            <!--<span class="help-block2 hidden-when-valid">Mail må være på formatet adresse@domene.no</span>-->
+                        </div>
+                        <div class="col-lg-4">
+                            <span id="mailHelpBlock" class="help-block2 hidden-when-valid form-control-static">Oops, feil format! adresse@domene.no</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword" class="col-lg-2 control-label">Passord (*)</label>
+                        <div class="col-lg-6">
+                            <input type="password" class="form-control req" name="inputPassword" id="inputPassword" placeholder="Passord">
+                        </div>
+                        <div class="col-lg-4">
+                            <span id="passwordHelpBlock" class="help-block2 hidden-when-valid form-control-static">Oops! Passord ikke på riktig format.</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputRepeatPassword" class="col-lg-2 control-label">Gjenta passord (*)</label>
+                        <div class="col-lg-6">
+                            <input type="password" class="form-control req" id="inputRepeatPassword" placeholder="Gjenta passord">
+                        </div>
+                        <div class="col-lg-4">
+                            <span id="passwordRepeatHelpBlock" class="help-block2 hidden-when-valid form-control-static">Oops! Passordene er ikke like</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFirstName" class="col-lg-2 control-label">Fornavn</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputFirstName" placeholder="Ola">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputLastName" class="col-lg-2 control-label">Etternavn</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputLastName" placeholder="Nordmann">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Kjønn (*)</label>
+                        <div class="col-lg-10">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="genderRadios" id="genderRadiosMale" value="male" checked="">
+                                    Mann
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="genderRadios" id="genderRadiosFemale" value="female">
+                                    Kvinne
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAllergies" class="col-lg-2 control-label">Allergier</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="3" id="inputAllergies" placeholder="Nøtter, melk, gluten..."></textarea>
+                            <span class="help-block">Skriv inn eventuelle allergier du har som en komma-separert liste.
+                                                     Vi trenger å vite dette for arrangementer du melder deg på.</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="selectSport" class="col-lg-2 control-label">Favorittsport</label>
+                        <div class="col-lg-10">
+                            <select class="form-control" id="selectSport">
+                                <option>Tennis</option>
+                                <option>Badminton</option>
+                                <option>Squash</option>
+                                <option>Volleyball</option>
+                                <option>Fotball</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button class="btn btn-default">Kanseller</button>
+                            <button type="submit" class="btn btn-primary">Registrer</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- /CONTENT ============-->
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4 text-center">
+                Made by me
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+        <div class="container">
+</footer>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/validateRegisterUser.js"></script>
+<script src="js/validateRegisterUserOnSubmit.js"></script>
+</body>
+</html>
