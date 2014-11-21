@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<careers>
+    <career>
+        <companyName>Accenture</companyName>
+        <title>Summer Internship</title>
+        <short-description>Er du sjukt god på å masere folk? Bli med på vårt fysioterapeut-program
+        sommeren 2015!</short-description>
+        <imageUrl>img/accenture.jpg</imageUrl>
+        <linkUrl>careers/accenture.html</linkUrl>
+        <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
+            Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
+            consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
+            nulla. Aenean tempus, sapien cursus condimentum tristique, enim lorem sollicitudin ipsum, sed consectetur
+            dui tortor sit amet est. Pellentesque id lectus sagittis, vulputate tortor vitae, tempor sem. Vestibulum
+            et cursus ipsum, venenatis imperdiet turpis.
+
+            Pellentesque posuere, sapien et tincidunt blandit, metus augue luctus augue, sed egestas massa sapien vel
+            diam. Proin eu enim metus. Aliquam ante tellus, venenatis eget hendrerit ac, tempor eu orci. Integer
+            pulvinar commodo mauris, et finibus nibh rhoncus nec. Mauris faucibus suscipit pulvinar. Sed sit amet
+            neque posuere erat feugiat pharetra et ac nibh. Donec interdum ultricies elit dapibus mattis. Pellentesque
+            imperdiet viverra magna quis ornare. Praesent rhoncus est nec consequat vehicula. Cras facilisis risus
+            risus, ultrices pretium nisi hendrerit eget.</long-description>
+        <deadline>
+            <date>15. desember 2014</date>
+            <time>20:00</time>
+        </deadline>
+        <startupDate>6. juni 2014</startupDate>
+        <contact>
+            <name>Arne Næss</name>
+            <mail>arnenaess@naess.no</mail>
+            <phone>(+47) 123 45 678</phone>
+        </contact>
+    </career>
+    <career>
+        <companyName>Ciber</companyName>
+        <title>Part-time soccer coach</title>
+        <short-description>Vi søker fotballtrenere med talent og engasjement til deltidsjobb i Trondheim!</short-description>
+        <imageUrl>img/ciber.png</imageUrl>
+        <linkUrl>careers/ciber.html</linkUrl>
+        <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
+            Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
+            consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
+            nulla. Aenean tempus, sapien cursus condimentum tristique, enim lorem sollicitudin ipsum, sed consectetur
+            dui tortor sit amet est. Pellentesque id lectus sagittis, vulputate tortor vitae, tempor sem. Vestibulum
+            et cursus ipsum, venenatis imperdiet turpis.
+
+            Pellentesque posuere, sapien et tincidunt blandit, metus augue luctus augue, sed egestas massa sapien vel
+            diam. Proin eu enim metus. Aliquam ante tellus, venenatis eget hendrerit ac, tempor eu orci. Integer
+            pulvinar commodo mauris, et finibus nibh rhoncus nec. Mauris faucibus suscipit pulvinar. Sed sit amet
+            neque posuere erat feugiat pharetra et ac nibh. Donec interdum ultricies elit dapibus mattis. Pellentesque
+            imperdiet viverra magna quis ornare. Praesent rhoncus est nec consequat vehicula. Cras facilisis risus
+            risus, ultrices pretium nisi hendrerit eget.</long-description>
+        <deadline>
+            <date>1. januar 2015</date>
+            <time>16:00</time>
+        </deadline>
+        <startupDate>10. juni 2014</startupDate>
+        <contact>
+            <name>Ola Nordmann</name>
+            <mail>ola@nordmann.no</mail>
+            <phone>(+47) 123 45 678</phone>
+        </contact>
+    </career>
+    <career>
+        <companyName>Facebook</companyName>
+        <title>Fysiologisk rådgiver hos et av verdens største teknologiselskaper</title>
+        <short-description>Mange av våre ansatte sliter med arbeidsrelatere skader. Hjelp oss å bli
+        bedre ved å bli vår nye fysiologiske rådgiver</short-description>
+        <imageUrl>img/facebook.jpg</imageUrl>
+        <linkUrl>careers/facebook.html</linkUrl>
+        <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
+            Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
+            consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
+            nulla. Aenean tempus, sapien cursus condimentum tristique, enim lorem sollicitudin ipsum, sed consectetur
+            dui tortor sit amet est. Pellentesque id lectus sagittis, vulputate tortor vitae, tempor sem. Vestibulum
+            et cursus ipsum, venenatis imperdiet turpis.
+
+            Pellentesque posuere, sapien et tincidunt blandit, metus augue luctus augue, sed egestas massa sapien vel
+            diam. Proin eu enim metus. Aliquam ante tellus, venenatis eget hendrerit ac, tempor eu orci. Integer
+            pulvinar commodo mauris, et finibus nibh rhoncus nec. Mauris faucibus suscipit pulvinar. Sed sit amet
+            neque posuere erat feugiat pharetra et ac nibh. Donec interdum ultricies elit dapibus mattis. Pellentesque
+            imperdiet viverra magna quis ornare. Praesent rhoncus est nec consequat vehicula. Cras facilisis risus
+            risus, ultrices pretium nisi hendrerit eget.</long-description>
+        <deadline>
+            <date>1. desember 2015</date>
+            <time>23:55</time>
+        </deadline>
+        <startupDate>24. juni 2015</startupDate>
+        <contact>
+            <name>Mark Zuckerberg</name>
+            <mail>markz@facebook.com</mail>
+            <phone>(+47) 123 45 678</phone>
+        </contact>
+    </career>
+    <career>
+        <companyName>Knowit</companyName>
+        <title>Sommerjobb som idrettsleder</title>
+        <short-description>Høsten 2015 skal vi melde oss på OL og trenger derfor svært kompetente
+        idrettsledere som kan hjelpe oss sommeren 2015.</short-description>
+        <imageUrl>img/knowit.jpg</imageUrl>
+        <linkUrl>careers/knowit.html</linkUrl>
+        <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
+            Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
+            consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
+            nulla. Aenean tempus, sapien cursus condimentum tristique, enim lorem sollicitudin ipsum, sed consectetur
+            dui tortor sit amet est. Pellentesque id lectus sagittis, vulputate tortor vitae, tempor sem. Vestibulum
+            et cursus ipsum, venenatis imperdiet turpis.
+
+            Pellentesque posuere, sapien et tincidunt blandit, metus augue luctus augue, sed egestas massa sapien vel
+            diam. Proin eu enim metus. Aliquam ante tellus, venenatis eget hendrerit ac, tempor eu orci. Integer
+            pulvinar commodo mauris, et finibus nibh rhoncus nec. Mauris faucibus suscipit pulvinar. Sed sit amet
+            neque posuere erat feugiat pharetra et ac nibh. Donec interdum ultricies elit dapibus mattis. Pellentesque
+            imperdiet viverra magna quis ornare. Praesent rhoncus est nec consequat vehicula. Cras facilisis risus
+            risus, ultrices pretium nisi hendrerit eget.</long-description>
+        <deadline>
+            <date>31. desember 2015</date>
+            <time>23:55</time>
+        </deadline>
+        <startupDate>3. juli 2015</startupDate>
+        <contact>
+            <name>Hei Knowit</name>
+            <mail>roflmao@knowitlol.no</mail>
+            <phone>(+47) 123 45 678</phone>
+        </contact>
+    </career>
+    <career>
+        <companyName>MazeMap</companyName>
+        <title>Heltidsjobb som orienteringstester</title>
+        <short-description>Vi utvikler neste generasjons kartsystemer, og trenger en orienteringstester på laget vårt
+        </short-description>
+        <imageUrl>img/mazemap.png</imageUrl>
+        <linkUrl>careers/mazemap.html</linkUrl>
+        <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
+            Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
+            consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
+            nulla. Aenean tempus, sapien cursus condimentum tristique, enim lorem sollicitudin ipsum, sed consectetur
+            dui tortor sit amet est. Pellentesque id lectus sagittis, vulputate tortor vitae, tempor sem. Vestibulum
+            et cursus ipsum, venenatis imperdiet turpis.
+
+            Pellentesque posuere, sapien et tincidunt blandit, metus augue luctus augue, sed egestas massa sapien vel
+            diam. Proin eu enim metus. Aliquam ante tellus, venenatis eget hendrerit ac, tempor eu orci. Integer
+            pulvinar commodo mauris, et finibus nibh rhoncus nec. Mauris faucibus suscipit pulvinar. Sed sit amet
+            neque posuere erat feugiat pharetra et ac nibh. Donec interdum ultricies elit dapibus mattis. Pellentesque
+            imperdiet viverra magna quis ornare. Praesent rhoncus est nec consequat vehicula. Cras facilisis risus
+            risus, ultrices pretium nisi hendrerit eget.</long-description>
+        <deadline>
+            <date>16. desember 2015</date>
+            <time>13:55</time>
+        </deadline>
+        <startupDate>28. mai 2015</startupDate>
+        <contact>
+            <name>Kai-fra Orienten</name>
+            <mail>maze@map.com</mail>
+            <phone>(+47) 123 45 678</phone>
+        </contact>
+    </career>
+    <career>
+        <companyName>Visma</companyName>
+        <title>Sommerjobb som lættis komiker</title>
+        <short-description>Norge har mistet all sin humor. Norge trenger kreative, morsomme
+        mennesker for å drive verden videre. Er du vår helt?</short-description>
+        <imageUrl>img/visma.png</imageUrl>
+        <linkUrl>careers/visma.html</linkUrl>
+        <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
+            Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
+            consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
+            nulla. Aenean tempus, sapien cursus condimentum tristique, enim lorem sollicitudin ipsum, sed consectetur
+            dui tortor sit amet est. Pellentesque id lectus sagittis, vulputate tortor vitae, tempor sem. Vestibulum
+            et cursus ipsum, venenatis imperdiet turpis.
+
+            Pellentesque posuere, sapien et tincidunt blandit, metus augue luctus augue, sed egestas massa sapien vel
+            diam. Proin eu enim metus. Aliquam ante tellus, venenatis eget hendrerit ac, tempor eu orci. Integer
+            pulvinar commodo mauris, et finibus nibh rhoncus nec. Mauris faucibus suscipit pulvinar. Sed sit amet
+            neque posuere erat feugiat pharetra et ac nibh. Donec interdum ultricies elit dapibus mattis. Pellentesque
+            imperdiet viverra magna quis ornare. Praesent rhoncus est nec consequat vehicula. Cras facilisis risus
+            risus, ultrices pretium nisi hendrerit eget.</long-description>
+        <deadline>
+            <date>12. desember 2015</date>
+            <time>12:15</time>
+        </deadline>
+        <startupDate>3. juni 2015</startupDate>
+        <contact>
+            <name>Lars Brauler</name>
+            <mail>lars.brauler@vismafolk.com</mail>
+            <phone>(+47) 123 45 678</phone>
+        </contact>
+    </career>
+</careers>
