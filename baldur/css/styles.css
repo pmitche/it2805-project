@@ -70,3 +70,10 @@
 #mediaplayer {
     text-align: center;
 }
+
+#eventsList > .row {
+    padding-bottom: 20px;
+}
+.main-content > h2 {
+    padding-bottom: 10px;
+}
