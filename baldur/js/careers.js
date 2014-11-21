@@ -26,7 +26,7 @@ function parse(document){
         }
         output += newRow+'<div class="col-lg-4 col-sm-4"><h3>' +
         '<a class="" href="' + $(this).find('linkUrl').text() + '">' +
-        '<img width="360" src="' + $(this).find('imageUrl').text() + '"/></a><br>' +
+        '<img width="360" style="margin-bottom: 10px" src="' + $(this).find('imageUrl').text() + '"/></a><br>' +
         '<b>' + $(this).find('title').text() + '</b> ' +
         '<p>' + $(this).find('short-description').text() + '</p><br>' +
         '</div>'+endRow;
