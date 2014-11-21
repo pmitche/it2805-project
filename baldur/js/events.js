@@ -14,11 +14,10 @@ $(document).ready(function(){
                 counter = -1;
                 endRow = "</div>";
             }
-            output += newRow+'<div class="col-lg-6 col-sm-6"><b>' +$(this).find('eventName').text()+
-            '</b> @ '+$(this).find('location').text()+
-            '<br /> <i>'+$(this).find('ingress').text()+ '</i></p><br>' +
-            '<a href="' + $(this).find('linkUrl').text() + '">' +
-            '<img src="' + $(this).find('imageUrl').text() + '" width="250" height="200"/></a>' +
+            output += newRow+'<div class="col-lg-6 col-sm-6"><h3><i>' +$(this).find('eventName').text()+"</i></h3>"+
+            '<a class=\'event-thumbnail\' href="' + $(this).find('linkUrl').text() + '">' +
+            '<img src="' + $(this).find('imageUrl').text() + '"/></a>' +
+            '</br><i>'+$(this).find('ingress').text()+ '</i></p><br>' +
             '</div>'+endRow;
             counter++;
         });
