@@ -33,6 +33,7 @@ function setMenuLoggedIn(){
 function logout() {
     $.removeCookie('baldurLogin', { path: '/' });
     setMenu();
+    window.location.reload();
 }
 function setMenu() {
     if (!isLoggedIn()){
@@ -52,6 +53,7 @@ function loginFunc(){
     if(userExists(email, password)){
         $.cookie('baldurLogin', email, { expires: 1, path: '/' });
         setMenu();
+        window.location.reload();
     }
 }
 function register(){
