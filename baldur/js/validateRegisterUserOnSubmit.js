@@ -1,6 +1,13 @@
 /**
  * Created by Paul on 20.11.2014.
  */
+$(document).ready(function(){
+    $("#register").click(function(e){
+        e.preventDefault();
+        submitUserForm();
+    });
+
+});
 function submitUserForm(){
     if(validateForm()){
         var data = localStorage['baldur-users'];
@@ -24,6 +31,7 @@ function submitUserForm(){
         var user = {email:mail , password:password , firstName:firstname, lastName:lastname, allergies:allergies, gender:gender, selectedSport:selectedSport };
         users.push(user);
         localStorage['baldur-users'] = JSON.stringify(users);
+        window.location.href = "index.html";
     }
 }
 function validateForm() {
