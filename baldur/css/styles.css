@@ -67,6 +67,12 @@
     }
 }
 
+@media (max-width: 640px) {
+    video{
+        width: 95%;
+    }
+}
+
 #mediaplayer {
     text-align: center;
 }
