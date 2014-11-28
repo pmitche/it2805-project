@@ -57,7 +57,7 @@ function loginFunc(){
     }
 }
 function register(){
-    window.location = "register.html";
+    window.location = "../register/register.html";
 }
 
 //TODO: Change user exists
