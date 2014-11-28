@@ -28,7 +28,7 @@ function setMenuLoggedIn(){
     $( "#menuLogin" ).append("<a class=\"dropdown-toggle\" href=\"#\" data-toggle=\"dropdown\" id=\"navLogin\"><span class=\"glyphicon glyphicon-user\"></span>&nbsp;&nbsp;</a>" +
         "<ul class=\"dropdown-menu\" aria-labelledby=\"userMenu\">" +
         "<li><a href='#' onclick=\"logout();return false;\">Log out</a></li>" +
-        "<li><a href=\"profile.html\">Profile settings</a></li></ul>");
+        "<li><a href='#' onclick=\"profile();return false;\">Profile settings</a></li></ul>");
 }
 function logout() {
     $.removeCookie('baldurLogin', { path: '/' });
@@ -59,6 +59,10 @@ function loginFunc(){
 function register(){
     var newPath = window.location.pathname.replace(/\/baldur\/.*/, "/baldur/");
     window.location = newPath+"register/register.html";
+}
+function profile(){
+    var newPath = window.location.pathname.replace(/\/baldur\/.*/, "/baldur/");
+    window.location = newPath+"profile/profile.html";
 }
 
 //TODO: Change user exists
