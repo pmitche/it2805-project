@@ -5,7 +5,7 @@
     <event name="tennis">
         <eventName url="nmtennis">Norgesmesterskap i Tennis</eventName>
         <imageUrl>img/tennis.jpg</imageUrl>
-        <linkUrl>events/tennis.html</linkUrl>
+        <linkUrl>tennis.html</linkUrl>
         <from>
             <date>1. desember 2014</date>
             <time>10:00</time>
@@ -23,7 +23,7 @@
     <event name="squash">
         <eventName url="squash-shoot-out">Squash shoot-out</eventName>
         <imageUrl>img/squash.jpg</imageUrl>
-        <linkUrl>events/squash.html</linkUrl>
+        <linkUrl>squash.html</linkUrl>
         <from>
             <date>3. desember 2014</date>
             <time>14:00</time>
@@ -40,7 +40,7 @@
     <event name="anatomi">
         <eventName url="anatomi">Eksamensforelesning i anatomi</eventName>
         <imageUrl>img/anatomi.jpg</imageUrl>
-        <linkUrl>events/anatomi.html</linkUrl>
+        <linkUrl>anatomi.html</linkUrl>
         <from>
             <date>5. desember 2014</date>
             <time>19:00</time>
@@ -59,7 +59,7 @@
     <event name="ekskursjon">
         <eventName url="ekskursjon">Ekskursjon til OL i Pyongyang 2016</eventName>
         <imageUrl>img/ekskursjon.jpg</imageUrl>
-        <linkUrl>events/ekskursjon.html</linkUrl>
+        <linkUrl>ekskursjon.html</linkUrl>
         <from>
             <date>3. mars 2016</date>
             <time>15:00</time>
