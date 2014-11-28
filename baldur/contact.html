@@ -66,14 +66,13 @@
     <h2><b>Kontakt oss</b></h2><br>
     <div class="row">
         <div class="col-lg-12">
-            <form class="form-horizontal" name="contactForm" onsubmit="" method="get">
+            <form class="form-horizontal" name="contactForm" action="mailto:kyrre.l.moe@gmail.com" method="post">
                 <fieldset>
                     <legend>Send oss en mail!</legend>
                     <div class="form-group">
                         <label for="inputName" class="col-md-2 control-label">Email (*)</label>
                         <div class="col-md-6">
                             <input type="email" class="form-control" name="inputName" id="inputName" placeholder="ola@nordmann.no" required>
-                            <!--<span class="help-block2 hidden-when-valid">Mail må være på formatet adresse@domene.no</span>-->
                         </div>
                     </div>
                     <div class="form-group">
@@ -90,7 +89,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-10 col-md-offset-2">
-                            <button href="mailto:kyrre.l.moe@gmail.com?subject=Lol&body=hahaha" class="btn btn-primary">Send mail</button>
+                            <button type="submit" class="btn btn-primary">Send mail</button>
                         </div>
                     </div>
                 </fieldset>
