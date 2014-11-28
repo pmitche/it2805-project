@@ -57,7 +57,8 @@ function loginFunc(){
     }
 }
 function register(){
-    window.location = "../register/register.html";
+    var newPath = window.location.pathname.replace(/\/baldur\/.*/, "/baldur/");
+    window.location = newPath+"register/register.html";
 }
 
 //TODO: Change user exists
