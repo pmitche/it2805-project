@@ -28,7 +28,7 @@ function setMenuLoggedIn(){
     $( "#menuLogin" ).append("<a class=\"dropdown-toggle\" href=\"#\" data-toggle=\"dropdown\" id=\"navLogin\"><span class=\"glyphicon glyphicon-user\"></span>&nbsp;&nbsp;</a>" +
         "<ul class=\"dropdown-menu\" aria-labelledby=\"userMenu\">" +
         "<li><a href='#' onclick=\"logout();return false;\">Log out</a></li>" +
-        "<li><a href=\"profile.html\">Profile settings</a></li></ul>");
+        "<li><a href=\"../profile.html\">Profile settings</a></li></ul>");
 }
 function logout() {
     $.removeCookie('baldurLogin', { path: '/' });

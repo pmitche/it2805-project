@@ -2,7 +2,7 @@
 
 <events>
     <title>Kommende arrangementer</title>
-    <event>
+    <event name="tennis">
         <eventName url="nmtennis">Norgesmesterskap i Tennis</eventName>
         <imageUrl>img/tennis.jpg</imageUrl>
         <linkUrl>events/tennis.html</linkUrl>
@@ -20,7 +20,7 @@
                      kan melde seg på. Turneringen vil bli avholdt på Riksanlegget i Oslo, der
                      det finnes kjøkken, tennisbutikk, stor lounge og masse annet.</description>
     </event>
-    <event>
+    <event name="squash">
         <eventName url="squash-shoot-out">Squash shoot-out</eventName>
         <imageUrl>img/squash.jpg</imageUrl>
         <linkUrl>events/squash.html</linkUrl>
@@ -37,7 +37,7 @@
         <description>Squash shoot-out er et spill der man leker og har det gøy. Alle kan melde seg på.
                      På Dragvoll er det svært gode squash fasiliteter. Ta med innesko med riktig såle.</description>
     </event>
-    <event>
+    <event name="anatomi">
         <eventName url="anatomi">Eksamensforelesning i anatomi</eventName>
         <imageUrl>img/anatomi.jpg</imageUrl>
         <linkUrl>events/anatomi.html</linkUrl>
@@ -56,7 +56,7 @@
                      en fantastisk mulighet til å både terpe pensum i faget, samt få en smakebit av
                      Arne Næss sin magi.</description>
     </event>
-    <event>
+    <event name="ekskursjon">
         <eventName url="ekskursjon">Ekskursjon til OL i Pyongyang 2016</eventName>
         <imageUrl>img/ekskursjon.jpg</imageUrl>
         <linkUrl>events/ekskursjon.html</linkUrl>
