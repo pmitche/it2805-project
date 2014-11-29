@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <careers>
-    <career>
+    <career name="accenture">
         <companyName>Accenture</companyName>
         <title>Summer Internship</title>
         <short-description>Er du sjukt god på å masere folk? Bli med på vårt fysioterapeut-program
         sommeren 2015!</short-description>
         <imageUrl>img/accenture.jpg</imageUrl>
-        <linkUrl>careers/accenture.html</linkUrl>
+        <linkUrl>accenture.html</linkUrl>
         <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
             Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
             consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
@@ -32,12 +32,12 @@
             <phone>(+47) 123 45 678</phone>
         </contact>
     </career>
-    <career>
+    <career name="ciber">
         <companyName>Ciber</companyName>
         <title>Part-time soccer coach</title>
         <short-description>Vi søker fotballtrenere med talent og engasjement til deltidsjobb i Trondheim!</short-description>
         <imageUrl>img/ciber.png</imageUrl>
-        <linkUrl>careers/ciber.html</linkUrl>
+        <linkUrl>ciber.html</linkUrl>
         <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
             Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
             consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
@@ -62,13 +62,13 @@
             <phone>(+47) 123 45 678</phone>
         </contact>
     </career>
-    <career>
+    <career name="facebook">
         <companyName>Facebook</companyName>
         <title>Fysiologisk rådgiver hos et av verdens største teknologiselskaper</title>
         <short-description>Mange av våre ansatte sliter med arbeidsrelatere skader. Hjelp oss å bli
         bedre ved å bli vår nye fysiologiske rådgiver</short-description>
         <imageUrl>img/facebook.jpg</imageUrl>
-        <linkUrl>careers/facebook.html</linkUrl>
+        <linkUrl>facebook.html</linkUrl>
         <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
             Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
             consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
@@ -93,13 +93,13 @@
             <phone>(+47) 123 45 678</phone>
         </contact>
     </career>
-    <career>
+    <career name="knowit">
         <companyName>Knowit</companyName>
         <title>Sommerjobb som idrettsleder</title>
         <short-description>Høsten 2015 skal vi melde oss på OL og trenger derfor svært kompetente
         idrettsledere som kan hjelpe oss sommeren 2015.</short-description>
         <imageUrl>img/knowit.jpg</imageUrl>
-        <linkUrl>careers/knowit.html</linkUrl>
+        <linkUrl>knowit.html</linkUrl>
         <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
             Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
             consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
@@ -124,13 +124,13 @@
             <phone>(+47) 123 45 678</phone>
         </contact>
     </career>
-    <career>
+    <career name="mazemap">
         <companyName>MazeMap</companyName>
         <title>Heltidsjobb som orienteringstester</title>
         <short-description>Vi utvikler neste generasjons kartsystemer, og trenger en orienteringstester på laget vårt
         </short-description>
         <imageUrl>img/mazemap.png</imageUrl>
-        <linkUrl>careers/mazemap.html</linkUrl>
+        <linkUrl>mazemap.html</linkUrl>
         <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
             Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
             consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
@@ -155,13 +155,13 @@
             <phone>(+47) 123 45 678</phone>
         </contact>
     </career>
-    <career>
+    <career name="visma">
         <companyName>Visma</companyName>
         <title>Sommerjobb som lættis komiker</title>
         <short-description>Norge har mistet all sin humor. Norge trenger kreative, morsomme
         mennesker for å drive verden videre. Er du vår helt?</short-description>
         <imageUrl>img/visma.png</imageUrl>
-        <linkUrl>careers/visma.html</linkUrl>
+        <linkUrl>visma.html</linkUrl>
         <long-description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus dapibus sodales.
             Mauris pulvinar sodales ipsum at vehicula. Integer mauris ligula, elementum sed libero id, varius
             consectetur augue. In tristique justo quis nibh pulvinar, ut mattis enim dignissim. Sed sit amet dolor
