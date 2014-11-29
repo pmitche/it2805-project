@@ -4,19 +4,19 @@
 
 $(document).ready(function(){
     var functionToRun;
-    if (window.location.pathname == "/it2805-project/baldur/career/career.html"){
+    if (window.location.pathname.indexOf( "career.html") != -1){
         functionToRun = parse;
-    } else if (window.location.pathname == "/it2805-project/baldur/career/accenture.html"){
+    } else if (window.location.pathname.indexOf("accenture.html") != -1){
         functionToRun = parseAccenture;
-    } else if (window.location.pathname == "/it2805-project/baldur/career/ciber.html"){
+    } else if (window.location.pathname.indexOf("ciber.html") != -1){
         functionToRun = parseCiber;
-    } else if (window.location.pathname == "/it2805-project/baldur/career/facebook.html"){
+    } else if (window.location.pathname.indexOf("facebook.html") != -1){
         functionToRun = parseFacebook;
-    } else if (window.location.pathname == "/it2805-project/baldur/career/knowit.html"){
+    } else if (window.location.pathname.indexOf("knowit.html") != -1){
         functionToRun = parseKnowit;
-    } else if (window.location.pathname == "/it2805-project/baldur/career/mazemap.html"){
+    } else if (window.location.pathname.indexOf("mazemap.html") != -1){
         functionToRun = parseMazemap;
-    } else if (window.location.pathname == "/it2805-project/baldur/career/visma.html"){
+    } else if (window.location.pathname.indexOf("visma.html") != -1){
         functionToRun = parseVisma;
     }
         $.ajax({

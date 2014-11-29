@@ -1,15 +1,15 @@
 $(document).ready(function(){
     if(isLoggedIn()){
         var functionToRun;
-        if (window.location.pathname == "/it2805-project/baldur/events/events.html"){
+        if (window.location.pathname.indexOf("events.html") != -1){
             functionToRun = parse;
-        } else if (window.location.pathname == "/it2805-project/baldur/events/tennis.html"){
+        } else if (window.location.pathname.indexOf("tennis.html") != -1){
             functionToRun = parseTennis;
-        } else if (window.location.pathname == "/it2805-project/baldur/events/squash.html"){
+        } else if (window.location.pathname.indexOf("squash.html") != -1){
             functionToRun = parseSquash;
-        } else if (window.location.pathname == "/it2805-project/baldur/events/anatomi.html"){
+        } else if (window.location.pathname.indexOf("anatomi.html") != -1){
             functionToRun = parseAnatomi;
-        } else if (window.location.pathname == "/it2805-project/baldur/events/ekskursjon.html"){
+        } else if (window.location.pathname.indexOf("ekskursjon.html") != -1){
             functionToRun = parseEkskursjon;
         }
 
