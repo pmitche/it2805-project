@@ -31,7 +31,7 @@ function submitUserForm(){
         var user = {email:mail , password:password , firstName:firstname, lastName:lastname, allergies:allergies, gender:gender, selectedSport:selectedSport };
         users.push(user);
         localStorage['baldur-users'] = JSON.stringify(users);
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     }
 }
 function validateForm() {
