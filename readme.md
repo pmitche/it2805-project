@@ -50,11 +50,11 @@ Anatomi [http://upload.wikimedia.org/wikipedia/commons/b/b4/Head_ap_anatomy.jpg]
 OL [http://s3.amazonaws.com/digitaltrends-uploads-prod/2013/12/Kim-Jong-Un-7.jpg]
 
 ###Accenture [http://accenture.no]
-Ciber [http://ciber.no]
-Facebook [http://facebook.com
-Knowit [http://knowit.no]
-Mazemap [http://mazemap.no]
-Visma [http://visma.no]
+- [Ciber (ciber.no)](http://ciber.no)
+- [Facebook](http://facebook.com)
+- [Knowit (knowit.no)](http://knowit.no)
+- [MazeMap Indoor Maps and Navigation (www.mazemap.com)](https://www.mazemap.com)
+- [Visma (visma.no)](http://visma.no)
 
 
 	 
